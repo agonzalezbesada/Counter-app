@@ -1,0 +1,57 @@
+.counter-container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.counter-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(130, 141, 151);
+    width: 25%;
+    border: solid lightgray 3px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    font-family: monospace;
+    font-size: large;
+}
+
+.counter-box div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.counter-controls > button {
+    border-radius: 5px;
+    border: solid grey 2px;
+}
+
+.counter-controls > button:hover {
+    background-color: rgb(213, 213, 213);
+}
+
+.counter-controls > button:nth-child(2):hover {
+    background-color: rgb(255, 143, 143);
+}
+
+.counter-controls > button:nth-child(2):active {
+    color: black;
+    background-color: rgb(240, 240, 240);
+}
+
+.counter-controls > button:active {
+    color: black;
+    background-color: rgb(240, 240, 240);
+}
+
+
+
+
+
+
+
+
+
